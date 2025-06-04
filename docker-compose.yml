@@ -1,0 +1,35 @@
+services:
+  mysql:
+    extends:
+      file: ./docker/base/docker-compose.yml
+      service: mysql
+    volumes:
+      - mysql:/var/lib/mysql
+      # - $HOME/dbdump.sql:/docker-entrypoint-initdb.d/dbdump.sql # dbdump.sql is read on init and can be used to prepopulate the db
+
+  phpmyadmin:
+    extends:
+      file: ./docker/base/docker-compose.yml
+      service: phpmyadmin
+    depends_on:
+      - mysql
+
+  redis:
+    extends:
+      file: ./docker/base/docker-compose.yml
+      service: redis
+    volumes:
+      - redis:/data
+
+volumes:
+  mysql:
+    name: ${APP_NAME}-vol-mysql
+    driver: local
+  redis:
+    name: ${APP_NAME}-vol-redis
+    driver: local
+
+networks:
+  default:
+    name: "${APP_NAME}-net"
+    driver: bridge
