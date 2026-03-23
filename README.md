@@ -2,7 +2,7 @@
 
 Docker Ruby is a collection of services and containers intended to be pulled into a project as a submodule or subtree.
 
-## Configuration
+## How to use
 
 1. Run `git submodule add https://github.com/99linesofcode/docker-ruby.git docker` from your application root;
 1. Copy the `docker-compose.yml` to the application root;
@@ -11,18 +11,18 @@ Docker Ruby is a collection of services and containers intended to be pulled int
 
 Almost all the relevant configuration is done in/from the `docker-compose.yml` file.
 
-## Contributing to docker-ruby
+## Contributing
 
-Thank you for considering contributing to docker-ruby. Please review our [Contribution Guidelines](https://github.com/99linesofcode/.github/blob/main/.github/CONTRIBUTING.md).
+Please review the [Contribution Guidelines](https://github.com/99linesofcode/.github/blob/main/.github/CONTRIBUTING.md).
 
-## Code of Conduct
+## Code of conduct
 
 In order to ensure that the community is welcoming to all, please review and abide by the [Code of Conduct](https://github.com/99linesofcode/.github?tab=coc-ov-file).
 
-## Security Vulnerabilities
+## Security vulnerabilities
 
-Please review [our security policy](https://github.com/99linesofcode/.github?tab=security-ov-file) on how to report security vulnerabilities.
+Please review [the security policy](https://github.com/99linesofcode/.github?tab=security-ov-file) on how to report security vulnerabilities.
 
 ## License
 
-docker-ruby is open-sourced software licensed under the [MIT license](https://github.com/99linesofcode/docker-ruby?tab=MIT-1-ov-file)
+This software is open source and licensed under the [MIT license](https://github.com/99linesofcode/docker-ruby?tab=MIT-1-ov-file).
