@@ -1,6 +1,6 @@
 # docker-ruby
 
-Docker Ruby is a collection of services and containers intended to be pulled into a project as a submodule or subtree.
+A collection of services and containers intended to be pulled into a project as a submodule or subtree.
 
 ## How to use
 
