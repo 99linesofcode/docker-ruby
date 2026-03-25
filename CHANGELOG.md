@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/99linesofcode/docker-ruby/compare/v0.2.0...v0.2.1) (2026-03-25)
+
+
+### Bug Fixes
+
+* **deps:** bump base from `d738b99` to `ca67e49` ([0c61ca9](https://github.com/99linesofcode/docker-ruby/commit/0c61ca95e11cc7972f5412d4ce587873251fae1b))
+
+
+
 # [0.2.0](https://github.com/99linesofcode/docker-ruby/compare/v0.1.0...v0.2.0) (2026-03-25)
 
 
