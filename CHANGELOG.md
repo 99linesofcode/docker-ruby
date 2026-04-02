@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/99linesofcode/docker-ruby/compare/v0.2.1...v0.2.2) (2026-04-02)
+
+
+### Bug Fixes
+
+* **dependabot:** introduce dependency cooldown to mitigate supply chain attacks ([6f2e27f](https://github.com/99linesofcode/docker-ruby/commit/6f2e27f569fc516fe2d945771242509dcb97d7ec))
+
+
+
 ## [0.2.1](https://github.com/99linesofcode/docker-ruby/compare/v0.2.0...v0.2.1) (2026-03-25)
 
 
