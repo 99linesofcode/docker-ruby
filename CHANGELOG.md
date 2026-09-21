@@ -1,3 +1,13 @@
+## [0.2.4](https://github.com/99linesofcode/docker-ruby/compare/v0.2.3...v0.2.4) (2026-09-21)
+
+
+### Bug Fixes
+
+* **deps:** bump base from `b2b1048` to `fb9c424` ([#7](https://github.com/99linesofcode/docker-ruby/issues/7)) ([b13cbef](https://github.com/99linesofcode/docker-ruby/commit/b13cbefb6e27142935827cbe866c4559122a65d9))
+* **deps:** bump base from `fb9c424` to `e669462` ([#8](https://github.com/99linesofcode/docker-ruby/issues/8)) ([12497c9](https://github.com/99linesofcode/docker-ruby/commit/12497c9835986b7ad705522b983b8d0e47eed658))
+
+
+
 ## [0.2.3](https://github.com/99linesofcode/docker-ruby/compare/v0.2.2...v0.2.3) (2026-09-16)
 
 
@@ -40,23 +50,6 @@
 ### Features
 
 * **dependabot:** automatically manage submodules docker and docker compose image versions ([2293374](https://github.com/99linesofcode/docker-ruby/commit/22933741d9c7028609559e09114637738a8d394e))
-
-
-
-# [0.1.0](https://github.com/99linesofcode/docker-ruby/compare/af17f5ceff95e1dc2dcb7a4acac407d29c0a5c1e...v0.1.0) (2025-10-15)
-
-
-### Bug Fixes
-
-* **changelog:** generating failed due to missing write permissions ([263b0ef](https://github.com/99linesofcode/docker-ruby/commit/263b0ef9116c8f653243212ed35d63390fad7503))
-* **changelog:** workflow file extension was changed ([e777588](https://github.com/99linesofcode/docker-ruby/commit/e77758861ca7aa7c921ef88c0710f6c779a27980))
-
-
-### Features
-
-* **changelog:** generate changelog when PR gets merged into main ([0ea6876](https://github.com/99linesofcode/docker-ruby/commit/0ea687609aac5e3e8429dfa0494350db72c89471))
-* **devcontainer:** dev container configuration file ([90bf4d6](https://github.com/99linesofcode/docker-ruby/commit/90bf4d656464f53f6f675abf6252f082fcb710a4))
-* **docker-compose:** all the things ([af17f5c](https://github.com/99linesofcode/docker-ruby/commit/af17f5ceff95e1dc2dcb7a4acac407d29c0a5c1e))
 
 
 
