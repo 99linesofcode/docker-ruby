@@ -1,3 +1,12 @@
+## [0.2.5](https://github.com/99linesofcode/docker-ruby/compare/v0.2.4...v0.2.5) (2026-09-22)
+
+
+### Bug Fixes
+
+* **deps:** bump base from `e669462` to `ed0f6a3` ([#9](https://github.com/99linesofcode/docker-ruby/issues/9)) ([357c0dc](https://github.com/99linesofcode/docker-ruby/commit/357c0dc2f42f102e66d20eb92b842a68d0e958bb))
+
+
+
 ## [0.2.4](https://github.com/99linesofcode/docker-ruby/compare/v0.2.3...v0.2.4) (2026-09-21)
 
 
@@ -36,20 +45,6 @@
 ### Bug Fixes
 
 * **deps:** bump base from `d738b99` to `ca67e49` ([0c61ca9](https://github.com/99linesofcode/docker-ruby/commit/0c61ca95e11cc7972f5412d4ce587873251fae1b))
-
-
-
-# [0.2.0](https://github.com/99linesofcode/docker-ruby/compare/v0.1.0...v0.2.0) (2026-03-25)
-
-
-### Bug Fixes
-
-* **dependabot:** time should be of type string instead of int ([3abaf7b](https://github.com/99linesofcode/docker-ruby/commit/3abaf7b82237230dc4fe9da96875064563ab997a))
-
-
-### Features
-
-* **dependabot:** automatically manage submodules docker and docker compose image versions ([2293374](https://github.com/99linesofcode/docker-ruby/commit/22933741d9c7028609559e09114637738a8d394e))
 
 
 
