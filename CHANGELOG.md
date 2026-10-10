@@ -1,3 +1,14 @@
+## [0.2.6](https://github.com/99linesofcode/docker-ruby/compare/v0.2.5...v0.2.6) (2026-10-10)
+
+
+### Bug Fixes
+
+* **deps:** bump base from `4413eec` to `d260d4d` ([#11](https://github.com/99linesofcode/docker-ruby/issues/11)) ([fd864f0](https://github.com/99linesofcode/docker-ruby/commit/fd864f0c30aadd04725ef0c64305fda5e8ec9654))
+* **deps:** bump base from `d260d4d` to `fa8f66b` ([#12](https://github.com/99linesofcode/docker-ruby/issues/12)) ([666f2a1](https://github.com/99linesofcode/docker-ruby/commit/666f2a1fc8eed793e8cc47e60034b9cfd6bfc356))
+* **deps:** bump base from `ed0f6a3` to `4413eec` ([#10](https://github.com/99linesofcode/docker-ruby/issues/10)) ([84a821d](https://github.com/99linesofcode/docker-ruby/commit/84a821d546bed56025ebd841f368c29451e0a37d))
+
+
+
 ## [0.2.5](https://github.com/99linesofcode/docker-ruby/compare/v0.2.4...v0.2.5) (2026-09-22)
 
 
@@ -36,15 +47,6 @@
 ### Bug Fixes
 
 * **dependabot:** introduce dependency cooldown to mitigate supply chain attacks ([6f2e27f](https://github.com/99linesofcode/docker-ruby/commit/6f2e27f569fc516fe2d945771242509dcb97d7ec))
-
-
-
-## [0.2.1](https://github.com/99linesofcode/docker-ruby/compare/v0.2.0...v0.2.1) (2026-03-25)
-
-
-### Bug Fixes
-
-* **deps:** bump base from `d738b99` to `ca67e49` ([0c61ca9](https://github.com/99linesofcode/docker-ruby/commit/0c61ca95e11cc7972f5412d4ce587873251fae1b))
 
 
 
