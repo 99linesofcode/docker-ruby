@@ -1,7 +1,7 @@
 // https://aka.ms/devcontainer.json
 {
   "name": "Ruby",
-  "dockerComposeFile": "./docker-compose.yml",
+  "dockerComposeFile": "./docker-compose.yaml",
   "service": "devcontainer",
   "remoteUser": "abc",
   "workspaceFolder": "/app",

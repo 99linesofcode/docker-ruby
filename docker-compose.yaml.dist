@@ -1,7 +1,14 @@
 services:
+  devcontainer:
+    extends: # see: https://docs.docker.com/compose/how-tos/multiple-compose-files/extends/
+      file: ./docker/docker-compose.yaml
+      service: devcontainer
+    volumes:
+      - ../:/app
+
   mysql:
     extends:
-      file: ./docker/base/docker-compose.yml
+      file: ./docker/docker-compose.yaml
       service: mysql
     volumes:
       - mysql:/var/lib/mysql
@@ -9,14 +16,14 @@ services:
 
   phpmyadmin:
     extends:
-      file: ./docker/base/docker-compose.yml
+      file: ./docker/docker-compose.yaml
       service: phpmyadmin
     depends_on:
       - mysql
 
   redis:
     extends:
-      file: ./docker/base/docker-compose.yml
+      file: ./docker/docker-compose.yaml
       service: redis
     volumes:
       - redis:/data
@@ -31,5 +38,5 @@ volumes:
 
 networks:
   default:
-    name: "${APP_NAME}-net"
+    name: ${APP_NAME}-net
     driver: bridge

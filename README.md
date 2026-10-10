@@ -5,11 +5,11 @@ A collection of services and containers intended to be pulled into a project as 
 ## How to use
 
 1. Run `git submodule add https://github.com/99linesofcode/docker-ruby.git docker` from your application root;
-1. Copy the `docker-compose.yml` to the application root;
+1. Copy the `docker-compose.yaml.dist` to the application root as `docker-compose.yaml`;
 1. Configure the environment variables defined in the `.env.example` file in your `.env` in the application root;
 1. Run `docker compose up -d` to spin up your development environment.
 
-Almost all the relevant configuration is done in/from the `docker-compose.yml` file.
+Almost all the relevant configuration is done in/from the `docker-compose.yaml` file. This repository is a wrapper: it extends [docker-base](https://github.com/99linesofcode/docker-base), which it pulls in as the `base` submodule, and adds the Ruby-specific services.
 
 ## Contributing
 
