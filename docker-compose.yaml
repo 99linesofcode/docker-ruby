@@ -1,0 +1,20 @@
+services:
+  devcontainer:
+    extends: # see: https://docs.docker.com/compose/how-tos/multiple-compose-files/extends/
+      file: ./base/docker-compose.yaml
+      service: devcontainer
+
+  mysql:
+    extends:
+      file: ./base/docker-compose.yaml
+      service: mysql
+
+  phpmyadmin:
+    extends:
+      file: ./base/docker-compose.yaml
+      service: phpmyadmin
+
+  redis:
+    extends:
+      file: ./base/docker-compose.yaml
+      service: redis
